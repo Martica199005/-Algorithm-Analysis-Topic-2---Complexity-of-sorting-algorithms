@@ -7,6 +7,7 @@ sort ascending using the insertion sort algorithm
 insert). Implementați în python funcția insertionsort care primește o listă și o
 sortează crescător folosind algoritmul insertion sort (sortare prin
 inserție).
+https://www.geeksforgeeks.org/python-program-for-insertion-sort/
 
 2)Implement in python the mergesort function that receives a list and a
 sort ascending using the go sort algorithm
