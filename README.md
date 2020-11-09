@@ -6,13 +6,13 @@ Based on the graphs, it is desired to observe the complexity algorithms.
 sort ascending using the insertion sort algorithm (sorting by insertion).
 Implementați în python funcția insertionsort care primește o listă și o
 sortează crescător folosind algoritmul insertion sort (sortare prin inserție).
-https://www.geeksforgeeks.org/python-program-for-insertion-sort/
+
 
 2)Implement in python the mergesort function that receives a list and a sort ascending using the  merge sort algorithm
 (sorting by interclassing). 
 Implementați în python funcția mergesort care primește o listă și o sortează crescător folosind algoritmul merge sort (sortare prin
 interclasare)
-https://www.geeksforgeeks.org/merge-sort/
+
 
 3)Apply the insertionsort function (performed in point 1) to the lists
 from the lists.py file. Measure for each list the execution time of
