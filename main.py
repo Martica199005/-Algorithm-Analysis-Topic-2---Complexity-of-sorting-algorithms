@@ -2,40 +2,38 @@ import lists
 import time
 
 
-# Function to do insertion sort 
+# Function insertion sort 
 def insertionsort(l): 
   
-    # Traverse through 1 to len(l) 
+    # Consider the element l[0] already ordered 
     for i in range(1, len(l)): 
   
-        key = l[i] 
+        current = l[i] 
   
-        # Move elements of l[0..i-1], that are 
-        # greater than key, to one position ahead 
-        # of their current position 
+        # Move elements of l, that are > current, to one position ahead of their current position 
         j = i-1
-        while j >=0 and key < l[j] : 
+        while j >=0 and current < l[j] : 
                 l[j+1] = l[j] 
                 j -= 1
-        l[j+1] = key 
+        l[j+1] = current 
     return l
 
 
 
 
-# Python program for implementation of MergeSort 
+# Function mergesort 
 def mergesort(l): 
     if len(l) >1: 
-        mid = len(l)//2 # Finding the mid of the array 
-        L = l[:mid] # Dividing the array elements  
-        R = l[mid:] # into 2 halves 
+        middle = len(l)//2 # Finding the middle of the array 
+        L = l[:middle] # first half  
+        R = l[middle:] # second half 
   
         mergesort(L) # Sorting the first half 
         mergesort(R) # Sorting the second half 
   
         i = j = k = 0
           
-        # Copy data to temp arrays L[] and R[] 
+        # Sorting data 
         while i < len(L) and j < len(R): 
             if L[i] < R[j]: 
                 l[k] = L[i] 
@@ -45,7 +43,7 @@ def mergesort(l):
                 j+= 1
             k+= 1
           
-        # Checking if any element was left 
+
         while i < len(L): 
             l[k] = L[i] 
             i+= 1
@@ -59,7 +57,7 @@ def mergesort(l):
 
 
 
-#3 exercise
+
 # Find computation time for sorting algorithms and create files insertionsort.out and mergesort.out.
 
 
