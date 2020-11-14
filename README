@@ -6,7 +6,8 @@ The goal of the theme is to implement well-known sorting algorithms and design t
 
 3)Apply the insertionsort function (performed in point 1) to the lists from the lists.py file. Measure for each list the execution time of insertionsort function and create an insertionsort.out file in which on each line is the length of the list and the execution time of the algorithm (measured in seconds), separated by space.
 
-Example: ... Using the gnuplot utility, project the data from insertionsort.out in a graph. On the same graph, design the function c · n, choosing a suitable value 2 for c so that it can be observed that the execution times for insertion sort belong O(n2). Export the chart as an image and include it in the README.pdf file.
+Example: ... Using the gnuplot utility, project the data from insertionsort.out in a graph. On the same graph, design the function c · n, choosing a suitable value 2 for c so that it can be observed that the execution times for insertion sort belong O(n2). 
+Export the chart as an image and include it in the README.pdf file. C=1.29887e-07
 
 Aplicați funcția insertionsort (realizata la punctul 1) asupra listelor din fișierul lists.py. Măsurați pentru fiecare listă timpul de execuție al funcției insertionsort și creati un fișier insertionsort.out în care pe fiecare linie se află lungimea listei și timpul de execuție al algoritmului (măsurat în secunde), despărțite prin spațiu. Exemplu insertionsort.out: 200 0.00225806236267 400 0.00599884986877 600 0.0163078308105 800 0.0283260345459 Folosind utilitarul gnuplot, proiectați datele din insertionsort.out într-un grafic. Pe același grafic, proiectați funcția c · n , alegând o valoare potrivită 2 pentru c astfel încât să se poata observa că timpii de execuție pentru insertion sort aparțin O(n2 ). Exportați graficul ca imagine și includeți-l în fișierul README.pdf.
 
